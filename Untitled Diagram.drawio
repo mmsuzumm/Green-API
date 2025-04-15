@@ -1,79 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-11-16T16:14:05.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" etag="OBalbSL0SGSkMJgRDq4h" version="24.6.5" type="github">
-  <diagram name="Page-1" id="URZtqnMdMjba3o9C4xaJ">
-    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Page-1" id="HWctkDtoEcYup4UN3Rj1">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-1" value="Сервер АСД" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="40" y="300" width="240" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-2" value="Postgres" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="360" width="140" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-3" value="ОКД" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="420" y="120" width="240" height="370" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-4" value="vist-import&lt;br&gt;Обр" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="360" width="140" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-6" value="vist-import-jobs-writer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="190" width="140" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A3gfwZnT6toxHKbZBTeO-2" target="A3gfwZnT6toxHKbZBTeO-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="480" as="sourcePoint" />
-            <mxPoint x="380" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-8" value="4. Запрос на получение данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="380" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-9" value="5. Данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="410" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-11" value="Кластер для прода/&lt;div&gt;База данных в тестовой и dev-средах&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="820" y="300" width="240" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-12" value="Postgres" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="360" width="140" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-17" value="" style="edgeStyle=orthogonalEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="240" as="sourcePoint" />
-            <mxPoint x="840" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="720" y="240" />
-              <mxPoint x="720" y="370" />
-              <mxPoint x="840" y="370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-18" value="1. Отправка задачи в бд АСД-BI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A3gfwZnT6toxHKbZBTeO-17">
-          <mxGeometry x="-0.4192" y="-3" relative="1" as="geometry">
-            <mxPoint x="21" y="52" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startFill=1;" edge="1" parent="1" source="A3gfwZnT6toxHKbZBTeO-4" target="A3gfwZnT6toxHKbZBTeO-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="458.75" as="sourcePoint" />
-            <mxPoint x="840" y="458.75" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-20" value="2. Запрос на получение задач" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="430" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-21" value="3. Одна из невыполненных задач" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="470" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-22" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;" edge="1" parent="1" source="A3gfwZnT6toxHKbZBTeO-4" target="A3gfwZnT6toxHKbZBTeO-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="409.16999999999996" as="sourcePoint" />
-            <mxPoint x="840" y="409.16999999999996" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A3gfwZnT6toxHKbZBTeO-27" value="6. Обработанные данные" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="380" width="170" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
